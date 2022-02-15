@@ -1,0 +1,28 @@
+.form-send-trello {
+  background-color: white;
+  border: 2px solid #00acee;
+  padding: 20px;
+  width: 600px;
+
+  &__title {
+    margin: 0 !important;
+  }
+  &__form {
+    .MuiFormControl-root {
+      width: 100%;
+    }
+
+    &-name {
+      width: 50% !important;
+    }
+
+    &-textarea {
+      width: 100%;
+      font-size: 20px;
+    }
+        button {
+        font-size: 20px;
+        text-transform: inherit;
+        }
+  }
+}

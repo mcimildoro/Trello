@@ -1,0 +1,26 @@
+.trello {
+  position: relative;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h5 {
+      margin: 0;
+    }
+
+    svg {
+      cursor: pointer;
+      fill: #f00;
+    }
+  }
+
+  &__date-add-trello {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    font-size: 11px;
+    color: rgb(21, 32, 43);
+  }
+}
